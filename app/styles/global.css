@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+
+html {
+    --text-color: #202022;
+    --background-color: #fff;
+    --body-rgba: "255, 255, 255";
+    --text-rgba: "32,32,32";
+    --curousel-color: "#EEEDDE";
+
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+
+html.dark {
+    --text-color: #fff;
+    --background-color: #202020;
+    --body-rgba:"32,32,32";
+    --text-rgba:  "255, 255, 255";
+  }
